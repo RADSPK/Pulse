@@ -1,0 +1,19 @@
+{
+  "name": "Project Pulse — RADS & AHKF",
+  "short_name": "Project Pulse",
+  "description": "Project milestones, payments and deadlines for RADS and AHKF. Powered by DETAILS.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0B2440",
+  "theme_color": "#0B2440",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "My Week", "url": "./?view=week", "icons": [{"src": "icon-192.png", "sizes": "192x192"}]},
+    {"name": "Live Updates", "url": "./?mini=1", "icons": [{"src": "icon-192.png", "sizes": "192x192"}]}
+  ]
+}
